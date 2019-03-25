@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="rui_chen_hw3:jar" />
+      <artifact name="myRecommendation" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -37,7 +37,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/rui_chen_task1.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/find_similar_business.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
@@ -46,10 +46,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/rui_chen_task2.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/predict.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="131" column="37" lean-forward="true" selection-start-line="131" selection-start-column="37" selection-end-line="131" selection-end-column="37" />
+              <caret line="131" column="12" selection-start-line="131" selection-start-column="6" selection-end-line="131" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -89,8 +89,8 @@
       <find>onlyCandidates</find>
       <find>getCandidateBaskets</find>
       <find>itemb</find>
-      <find>update</find>
       <find>output</find>
+      <find>update</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -99,10 +99,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/rui_chen_task1.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/getSimilarities.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/rui_chen_task2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/predict.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="807" />
@@ -124,6 +125,11 @@
             <path>
               <item name="rui_chen_hw3" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rui_chen_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -138,6 +144,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rui_chen_hw3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553318465791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553495149967" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -217,17 +231,17 @@
       <option name="presentableId" value="Default" />
       <updated>1553205046834</updated>
       <workItem from="1553205052982" duration="15724000" />
-      <workItem from="1553230951705" duration="20320000" />
+      <workItem from="1553230951705" duration="20922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36044000" />
+    <option name="totallyTimeSpent" value="36646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -316,7 +330,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/rui_chen_task1.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/find_similar_business.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
@@ -333,10 +347,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/rui_chen_task2.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/predict.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="131" column="37" lean-forward="true" selection-start-line="131" selection-start-column="37" selection-end-line="131" selection-end-column="37" />
+          <caret line="131" column="12" selection-start-line="131" selection-start-column="6" selection-end-line="131" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -349,7 +366,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>rui_chen_hw3:jar</last-edited>
+          <last-edited>myRecommendation</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -397,7 +414,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>rui_chen_hw3</last-edited>
+          <last-edited>myRecommendation</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

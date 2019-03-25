@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="rui_chen_hw3:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/rui_chen_hw3_jar</output-path>
-    <root id="archive" name="rui_chen_hw3.jar">
-      <element id="module-output" name="rui_chen_hw3-build" />
-      <element id="module-output" name="rui_chen_hw3" />
-    </root>
-  </artifact>
-</component>
