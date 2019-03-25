@@ -8,10 +8,12 @@ predicting the rating when we input user and business. In task 1, we used MinHas
 we used Spark MLlib, user-based CF and item-based CF.
 
 2. How to run
+-python
 For task 1: spark-submit find_similar_business.py <path of input_data.csv> <path of output file>
 For task 2: spark-submit predict.py <path of input_data.csv> <path of test_data_predictions.csv> <caseId> <path of output file>,
 where caseId could be integer from 1 to 4. 1 is for MLlib, 2 is for user-based CF, 3 is for item-based CF and 4 is for item-based
 CF using MinHashing and LSH.
+-scala
 
 3. Evaluation
 For task1, we use evaluation_similar_business.py to output precision and recall, the input for this is the output of task1 and 
