@@ -9,12 +9,12 @@ we used Spark MLlib, user-based CF and item-based CF.
 
 2. How to run<br>
 -python<br>
-For task 1: spark-submit findSimilarBusiness.py <path of input_data.csv> <path of output file><br>
-For task 2: spark-submit predict.py <path of input_data.csv> <path of test_data_predictions.csv> <caseId> <path of output file>, where caseId could be integer from 1 to 4. 1 is for MLlib, 2 is for user-based CF, 3 is for item-based CF and 4 is for item-based CF using MinHashing and LSH.<br>
+For task 1: spark-submit findSimilarBusiness.py [path of input_data.csv] [path of output file]<br>
+For task 2: spark-submit predict.py [path of input_data.csv] [path of test_data_predictions.csv] [caseId] [path of output file], where caseId could be integer from 1 to 4. 1 is for MLlib, 2 is for user-based CF, 3 is for item-based CF and 4 is for item-based CF using MinHashing and LSH.<br>
 -scala<br>
 First we need go to the directory of of myRecommendation.jar: /scala/out/artifacts/myRecommendation, then we type command in terminal.<br>
-For task 1: spark-submit --class findSimilarBusiness myRecommendation.jar <path of input_data.csv> <path of output file><br>
-For task 2: spark-submit --class predict myRecommendation.jar <path of input_data.csv> <path of test_data_predictions.csv> <caseId> <path of output file>.<br>
+For task 1: spark-submit --class findSimilarBusiness myRecommendation.jar [path of input_data.csv] [path of output file]<br>
+For task 2: spark-submit --class predict myRecommendation.jar [path of input_data.csv] [path of test_data_predictions.csv] [caseId] [path of output file].<br>
 
 3. Evaluation<br>
 For task1, we use evaluation_similar_business.py to output precision and recall, the input for this is the output of task1 and 
