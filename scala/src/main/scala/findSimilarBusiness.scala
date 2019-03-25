@@ -1,6 +1,6 @@
 import java.io.PrintWriter
 
-object find_similar_business {
+object findSimilarBusiness {
   def main(args: Array[String]): Unit = {
     val startTime = System.currentTimeMillis()
     val inputPath = args(0)

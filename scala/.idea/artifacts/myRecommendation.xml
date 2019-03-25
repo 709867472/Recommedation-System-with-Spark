@@ -2,7 +2,6 @@
   <artifact type="jar" name="myRecommendation">
     <output-path>$PROJECT_DIR$/out/artifacts/myRecommendation</output-path>
     <root id="archive" name="myRecommendation.jar">
-      <element id="module-output" name="rui_chen_hw3-build" />
       <element id="module-output" name="myRecommendation" />
     </root>
   </artifact>
